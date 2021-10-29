@@ -1,0 +1,125 @@
+			
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300 ;
+	font-size: 20px;
+	line-height: 25px;
+	color: #555555;
+}
+
+h1 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 35px;
+	color: #363636;
+}
+
+strong, b
+{
+	font-weight: 500;
+	color: #121212;
+}
+
+h2, h3, h4,h5, h6
+{
+	font-weight: 400;
+	color: #363636;
+}
+
+blockquote
+{
+	border-left: solid 0.5em #ddd;
+	padding: 1em 0 1em 2em;
+	font-style: italic;
+}
+
+em, i
+{
+	font-style: italic;
+}
+
+hr
+{
+	border: 0;
+	border-top: solid 1px #ddd;
+	padding: 1.5em 0 0 0;
+	margin: 1.75em 0 0 0;
+}
+
+sub
+{
+	position: relative;
+	top: 0.5em;
+	font-size: 0.8em;
+}
+
+sup
+{
+	position: relative;
+	top: -0.5em;
+	font-size: 0.8em;
+}
+
+br.clear
+{
+	clear: both;
+}
+
+p, ul, ol, dl, table, blockquote, form
+{
+	margin-bottom: 2em;
+}
+
+html {
+	background-color: #B7E5F0;
+}
+
+.base-view {
+		position: absolute; /* or  */
+		left: 1%;
+		top: 1%;
+		width: 98% !important;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px !important;
+		background-color: #FFFFFE;
+}
+.content-box {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		overflow-y: scroll;
+}
+.footer {
+	bottom: 100;
+	position: absolute;
+}
+
+.profile-photo {
+	width:140px;
+	max-width:200px;
+}
+
+@media (min-width: 700px) {
+	.profile-photo {
+		width:250px;
+		max-width:300px;
+	}
+}
+
+@media (min-width:800px) {
+	.base-view {
+		left: 5%;
+		width: 90% !important;
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+	iframe {
+		width: 640px;
+		height: 900px !important;
+
+	}
+}
