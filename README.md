@@ -1,9 +1,9 @@
-# AYNIM: A non-generated, markdown-based simple CMS where you only provide the content
+# AYNIM: A non-generated, markdown-based simple static CMS
 
 Introduction
 -----
 
-My design goal, originally to rebuild my personal home page, were:
+My design goals, originally to rebuild my personal home page, were:
 
 1. Not having to generate/build/transpile the website. The static should be readily servable (e.g. after a change), without any build step.
 2. Content should be provided directly in Markdown format, again without any prior build step.
