@@ -1,4 +1,4 @@
-			
+
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300 ;
@@ -75,51 +75,55 @@ html {
 	background-color: #B7E5F0;
 }
 
+
+
 .base-view {
-		position: absolute; /* or  */
-		left: 1%;
-		top: 1%;
-		width: 98% !important;
-		padding-left: 5px;
-		padding-right: 5px;
-		padding-top: 10px;
-		padding-bottom: 10px !important;
-		background-color: #FFFFFE;
+  position: absolute; /* or  */
+  left: 1%;
+  top: 1%;
+  width: 98% !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px !important;
+  background-color: #FFFFFE;
 }
 .content-box {
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 10px;
-		overflow-y: scroll;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  overflow-y: scroll;
 }
-.footer {
-	bottom: 100;
-	position: absolute;
+
+footer {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 
 .profile-photo {
-	width:140px;
-	max-width:200px;
+width:140px;
+max-width:200px;
 }
 
-@media (min-width: 700px) {
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+@media (min-width:768px) {
 	.profile-photo {
-		width:250px;
-		max-width:300px;
+		width:150px;
+		max-width:200px;
 	}
-}
-
-@media (min-width:800px) {
 	.base-view {
 		left: 5%;
 		width: 90% !important;
 		padding-left: 10px;
 		padding-right: 10px;
-
 	}
 	iframe {
 		width: 640px;
 		height: 900px !important;
-
 	}
 }
