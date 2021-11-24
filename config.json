@@ -1,7 +1,7 @@
 {
 	"siteName": "Aynim",
 	"copyrightNotice": "© 2021 Copyright: [Alireza Ghasemi](/#)",
-	"styleFile": "/css/style.css",
+	"styleFile": "/css/styles.css",
 	"pages": {
 		"Home":"https://raw.githubusercontent.com/aghasemi/aynim/master/README.md",
 		"Markdown Guide": "https://gist.githubusercontent.com/cuonggt/9b7d08a597b167299f0d/raw/c872b3fb5f851d00fba18dfbd456179319a3e9fe/markdown_guide.md"
