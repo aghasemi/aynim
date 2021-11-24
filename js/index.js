@@ -59,16 +59,22 @@ const renderFromAnchor = async () => {
 window.addEventListener('hashchange', () => renderFromAnchor())
 
 window.addEventListener('DOMContentLoaded', event => {
-
 	const sidebarToggle = document.body.querySelector('#sidebarToggle');
     if (sidebarToggle) {
-        
+        if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
+			document.body.classList.toggle('sb-sidenav-toggled');
+        }
         sidebarToggle.addEventListener('click', event => {
             event.preventDefault();
             document.body.classList.toggle('sb-sidenav-toggled');
             localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
         });
     }
+
+	document.getElementById('pages').addEventListener('click', event => {
+		const isMobile = ! window.matchMedia('(min-width: 768px)').matches;
+		if (isMobile) document.body.classList.toggle('sb-sidenav-toggled');
+	});
 
 });
 
